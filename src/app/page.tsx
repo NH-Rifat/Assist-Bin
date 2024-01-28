@@ -8,7 +8,6 @@ import { db } from "@/lib/db";
 import { chats } from "@/lib/db/schema";
 import { eq } from "drizzle-orm";
 import { LuMessagesSquare } from "react-icons/lu";
-import Typewriter from "typewriter-effect";
 
 export default async function Home() {
   const { userId } = await auth();
